@@ -1,0 +1,645 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------- navbar -----------------*/
+
+.navbar {
+    color: black;
+    width: 100%;
+    height: 63px;
+    background: rgb(255, 255, 255);
+}
+
+.navbar .sub-nav {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .sub-nav .sub-suc {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .sub-nav .sub-suc a {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar .sub-nav .mainImg {
+    width: 6rem;
+    margin-left: 1rem;
+}
+
+.navbar .sub-nav a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.navbar .sub-nav .sub-suc .dropdown-content a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+.navbar .sub-nav .sub-suc{
+    position: relative;
+}
+
+.navbar .sub-nav .dropdown .parkk{
+    margin: 17px 0px;
+}
+
+.navbar .sub-nav .sub-suc .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    align-items: center;
+    right: 196px;
+    left: -14rem;
+    width: 95.5rem;
+    padding: 1rem 2rem;
+    /* top: 54px; */
+    background-color: #000000;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar .sub-nav .sub-suc .dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.main-div .main-div-div .main-div-div-img:hover {
+    transform: scale(1.02);
+}
+
+/* ------------------ responsive ------------------------*/
+
+.responsive-dropdown{
+    width: 100%;
+}
+
+.responsive-dropdown .dropdown-response{
+    flex-direction: column;
+    line-height: 2rem;
+    align-items: flex-start;
+    color: black;
+    padding-left: 1rem;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.responsive-dropdown .dropdown-response a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.responsive-dropdown .dropdown-response a:hover{
+    border-bottom: 1px solid #000;
+}
+
+/* -------------- Second Page ------------------- */
+
+.two .foursome {
+    width: 24rem;
+    height: 30rem;
+}
+
+.two .foursome .imgtextcontrol {
+    position: relative;
+    overflow: hidden;
+}
+
+.two .foursome .imgtextcontrol p {
+    position: absolute;
+    bottom: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.two .foursome .imgtextcontrol .pp {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.two .foursome .main-secsub {
+    width: 100%;
+    height: 30rem;
+    transition: 0.2s;
+}
+
+.two .foursome .main-secsub:hover {
+    transform: scale(1.02);
+}
+
+/* ------------------ forcolorfourth -----------------------*/
+
+.forcolorfourth {
+    background-color: #eee;
+    width: 100%;
+    height: 295vh;
+}
+
+.forcolorfourth .sub-ss-last {
+    margin-top: 0%;
+}
+
+.forcolorfourth h1 {
+    padding-top: 2rem;
+}
+
+.forcolorfourth .sub-four {
+    width: 100%;
+    height: 90vh;
+}
+
+.forcolorfourth .man-in-midel {
+    height: 90vh;
+    width: 100%;
+}
+
+.forcolorfourth .man-in-midel .changebgofnu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forcolorfourth .man-in-midel .bgch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85px;
+    font-size: 25px;
+}
+.forcolorfourth .man-in-midel .bgch a{
+    color: black;
+}
+
+.forcolorfourth .fourrow {
+    width: 100%;
+    padding-top: 2rem;
+    height: 46vh;
+}
+.forcolorfourth .fourrow .control{
+    overflow: hidden;
+    width: 100%;
+    transition-delay: 2s ease;
+}
+
+.forcolorfourth .fourso {
+    width: 100%;
+    padding-top: 2rem;
+    height: 68vh;
+}
+
+.forcolorfourth .fourrow .inimg {
+    width: 100%;
+}
+.forcolorfourth .sub-four .fourrow .inimg:hover {
+    transform: scale(1.02);
+}
+
+.forcolorfourth .fourrow p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.forcolorfourth .sub-four .fourrow .control .playbutn{
+    position: relative;
+    overflow: hidden;
+}
+.forcolorfourth .sub-four .fourrow .control .playbutn a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    color: white;
+}
+
+.forcolorfourth .fourrow .spiderText {
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.forcolorfourth .sub-sub-four .fourso .outimg {
+    width: 100%;
+}
+
+.forcolorfourth .sub-sub-four .fourso p {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 4vh;
+}
+
+/* ----------------------- footer ------------------------*/
+
+.footer {
+    width: 100%;
+    height: 18rem;
+    padding: 3rem 3rem 0rem 3rem;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .links a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-left: 2.6rem;
+}
+
+
+.footer .links .first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .links .second-section a {
+    font-size: 1.5rem;
+    margin-left: 1.6rem;
+}
+
+.footer .center-img {
+    text-align: center;
+}
+
+.footer .center-img .cimg img {
+    width: 5rem;
+    margin-top: 3rem;
+}
+
+.footer .center-img .dissub-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.footer .own {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.footer .center-img .lastinlast {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .carousel .carousel-inner .top-scroll-img{
+        height: 20rem;
+    }
+
+
+    .navbar .sub-nav .sub-suc a {
+        display: none;
+    }
+
+    .navbar .sub-nav .mainILOGO {
+        display: block;
+        width: 2rem;
+        margin-left: 1rem;
+    }
+
+    .navbar .sub-nav .mainImg {
+        margin-left: 65%;
+    }
+
+    .two .row {
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .two .row .foursome {
+        width: 100%;
+        height: 24rem;
+        margin-bottom: 6rem;
+    }
+
+    .forcolorfourth .sub-four {
+        margin-top: 28vh;
+    }
+
+    .forcolorfourth .sub-sub-four {
+        margin-top: 66vh;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso {
+        width: 100%;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso .control {
+        text-align: center;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso img {
+        object-fit: cover;
+        width: 100%;
+        height: 67vh;
+    }
+
+    .forcolorfourth .sub-ss-last {
+        margin-top: 172vh;
+    }
+
+    .footer {
+        margin-top: 122rem;
+        line-height: 2.5rem;
+    }
+
+    .footer .links .nonono {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .links .first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar .sub-nav .sub-suc a {
+        display: none;
+    }
+
+    .navbar .sub-nav .mainILOGO {
+        display: block;
+        width: 2rem;
+        position: relative;
+        margin-left: 1rem;
+    }
+
+    .navbar .sub-nav .mainImg {
+        margin-left: 100%;
+    }
+
+
+    .navbar .sub-nav .resmobo {
+        position: relative;
+    }
+
+    .navbar .sub-nav .dropdown-con {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .navbar .sub-nav .mainILOGO:hover .dropdown-con{
+        display: block;
+    }
+
+    .two .row {
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .two .row .foursome {
+        width: 50%;
+        height: 30rem;
+    }
+
+    .forcolorfourth .sub-four {
+        width: 100%;
+        height: 89vh;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso .control {
+        text-align: center;
+    }
+
+    .forcolorfourth .sub-sub-four .man-in-midel {
+        padding-top: 24rem;
+    }
+
+    .forcolorfourth .sub-ss-last {
+        margin-top: 98rem;
+    }
+
+    .footer {
+        margin-top: 145rem;
+        line-height: 2.5rem;
+    }
+
+    .footer .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .links .first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar .sub-nav .sub-suc a {
+        display: block;
+    }
+
+    .navbar .sub-nav .mainILOGO {
+        display: none;
+    }
+
+    .navbar .sub-nav .mainImg {
+        margin-left: 1rem;
+    }
+
+    .two .row {
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .two .row .foursome {
+        width: 50%;
+        height: 30rem;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso .control {
+        text-align: left;
+    }
+
+    .forcolorfourth .sub-sub-four .man-in-midel {
+        padding-top: 0rem;
+    }
+
+    .forcolorfourth .sub-ss-last {
+        margin-top: 0%;
+    }
+
+    .footer {
+        margin-top: 0rem;
+        line-height: 2.5rem;
+    }
+
+    .footer .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .links .first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar .sub-nav .sub-suc a {
+        display: block;
+    }
+
+    .navbar .sub-nav .mainILOGO {
+        display: none;
+    }
+
+    .navbar .sub-nav .mainImg {
+        margin-left: 1rem;
+    }
+
+    .two .row {
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .two .row .foursome {
+        width: 25%;
+        height: 30rem;
+    }
+
+    .forcolorfourth .sub-ss-last {
+        margin-top: 0%;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso .control {
+        text-align: left;
+    }
+
+    .footer {
+        margin-top: 0rem;
+    }
+
+    .footer .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .links .first-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar .sub-nav .sub-suc a {
+        display: block;
+    }
+
+    .navbar .sub-nav .mainILOGO {
+        display: none;
+    }
+
+    .navbar .sub-nav .mainImg {
+        margin-left: 1rem;
+    }
+
+    .forcolorfourth {
+        background-color: #eee;
+        width: 100%;
+        height: 325vh;
+    }
+
+    .forcolorfourth .sub-sub-four .fourso .control {
+        text-align: left;
+    }
+
+    .forcolorfourth .sub-ss-last {
+        margin-top: 10%;
+    }
+
+    .forcolorfourth .sub-ss-last .fourso .lastthep {
+        font-weight: 700;
+        padding-top: 4vh;
+        padding-left: 4vh;
+        font-size: 16px;
+    }
+
+    .footer {
+        margin-top: 2%;
+    }
+
+    .footer .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .links .first-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
